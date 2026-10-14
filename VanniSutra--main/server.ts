@@ -3451,11 +3451,6 @@ async function startServer() {
   }
 }
 
-if (!process.env.VERCEL) {
-  startServer().catch((err) => {
-    console.error('[startServer Error]:', err);
-  });
-}
-
-export default app;
-export { app };
+startServer().catch((err) => {
+  console.error('[startServer Error]:', err);
+});
