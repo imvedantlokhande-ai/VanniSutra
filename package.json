@@ -1,0 +1,12 @@
+{
+  "name": "vannisutra",
+  "version": "1.0.0",
+  "description": "VanniSutra - Contrastive Speech Analytics and Temporal Flaw Grounding Platform",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix VanniSutra--main run dev",
+    "build": "npm --prefix VanniSutra--main run build",
+    "start": "npm --prefix VanniSutra--main start",
+    "install:all": "npm --prefix VanniSutra--main install"
+  }
+}
